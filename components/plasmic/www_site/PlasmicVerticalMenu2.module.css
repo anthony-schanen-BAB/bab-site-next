@@ -1,0 +1,113 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  justify-content: flex-start;
+  align-items: center;
+  background: #621313;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 930px) {
+  .root {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 0;
+  padding: 16px;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 0;
+  min-height: 0;
+  margin-top: calc(0px - 15px);
+  height: calc(100% + 15px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox > :global(.__wab_flex-container) > picture > img,
+.freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 15px;
+}
+@media (min-width: 0px) and (max-width: 930px) {
+  .freeBox {
+    display: none;
+  }
+}
+.img {
+  position: relative;
+  object-fit: cover;
+  max-width: 80px;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.select:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  width: 189px;
+}
+@media (min-width: 0px) and (max-width: 930px) {
+  .select:global(.__wab_instance) {
+    width: 159px;
+  }
+}
+.text__nxZbI {
+  color: #ffffff;
+}
+.text__uMmAc {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 6px 16px;
+}
+.text__p74Vb {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 6px 16px;
+}
+.text__lKoql {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 6px 16px;
+}
+.text__h4Og8 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 6px 16px;
+}
+.text__yegSh {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 6px 16px;
+}

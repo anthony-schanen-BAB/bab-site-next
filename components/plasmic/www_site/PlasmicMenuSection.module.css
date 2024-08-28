@@ -1,0 +1,26 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  background: #2b2b2b;
+  grid-column-start: 1 !important;
+  grid-column-end: -1 !important;
+}
+@media (min-width: 0px) and (max-width: 930px) {
+  .root {
+    padding: 15px;
+  }
+}
+.h2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}

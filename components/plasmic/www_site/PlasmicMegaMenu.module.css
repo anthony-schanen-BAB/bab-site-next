@@ -1,0 +1,65 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+.root:hover .freeBox > :global(.__wab_flex-container) {
+  margin-left: calc(0px - 0px);
+  width: calc(100% + 0px);
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.root:hover .freeBox > :global(.__wab_flex-container) > *,
+.root:hover
+  .freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > *,
+.root:hover .freeBox > :global(.__wab_flex-container) > picture > img,
+.root:hover
+  .freeBox
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.bowlingLink4 {
+  width: 100%;
+  color: var(--token-RvPI6LyeIPmd);
+  height: auto;
+  min-width: 0;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+  color: var(--token-RvPI6LyeIPmd);
+  height: 1em;
+}
+.root:hover .svg {
+  transform: rotateX(0deg) rotateY(0deg) rotateZ(90deg);
+}

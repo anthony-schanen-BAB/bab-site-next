@@ -1,0 +1,22 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  background: #2b2b2b;
+  min-width: 0;
+}
+.dataList:global(.__wab_instance) {
+  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
+  color: #b22424;
+  font-family: "Bai Jamjuree", sans-serif;
+  min-width: 0;
+  padding: 16px;
+}

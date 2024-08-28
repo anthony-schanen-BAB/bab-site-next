@@ -1,0 +1,419 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.rootcolor3_softGreen {
+  border-color: #ffffff00;
+}
+.root:focus-within {
+  outline: none;
+}
+.root___focusVisibleWithin {
+  outline: none;
+}
+.trigger {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border-radius: 10px;
+  padding: 10px 12px;
+  border-width: 1px;
+  border-style: none;
+}
+.triggerisOpen {
+  background: none;
+}
+.triggercolor3_softBlue {
+  background: #edf6ff;
+  border-color: #ffffff00;
+}
+.triggercolor3_softCyan {
+  background: #e7f9fb;
+  border-color: #ffffff00;
+}
+.triggercolor3_softGreen {
+  background: #e9f9ee;
+  border-color: #ffffff00;
+}
+.triggercolor3_softYellow {
+  background: #fffbd1;
+  border-color: #ffffff00;
+}
+.triggercolor3_softOrange {
+  background: #fff1e7;
+  border-color: #ffffff00;
+}
+.triggercolor3_softRed {
+  background: #ffefef;
+  border-color: #ffffff00;
+}
+.triggercolor3_softPink {
+  background: #feeef8;
+  border-color: #ffffff00;
+}
+.triggercolor3_softPurple {
+  background: #f9f1fe;
+  border-color: #ffffff00;
+}
+.triggercolor3_softGray {
+  background: #f3f3f2;
+}
+.triggercolor3_clear {
+  background: none;
+  border-style: none;
+}
+.root:focus-within .trigger {
+  box-shadow: none;
+  outline: none;
+}
+.root .trigger___focusVisibleWithin {
+  box-shadow: none;
+  outline: none;
+}
+.root .trigger:active {
+  background: #e9e9e6;
+}
+.rootisOpen .triggerisOpen:active {
+  background: #621313;
+}
+.rootcolor3_softBlue .triggercolor3_softBlue:active {
+  background: #cee7fe;
+}
+.rootcolor3_softCyan .triggercolor3_softCyan:active {
+  background: #c4eaef;
+}
+.rootcolor3_softGreen .triggercolor3_softGreen:active {
+  background: #ccebd7;
+}
+.rootcolor3_softYellow .triggercolor3_softYellow:active {
+  background: #fef2a4;
+}
+.rootcolor3_softOrange .triggercolor3_softOrange:active {
+  background: #ffdcc3;
+}
+.rootcolor3_softRed .triggercolor3_softRed:active {
+  background: #fdd8d3;
+}
+.rootcolor3_softPink .triggercolor3_softPink:active {
+  background: #f9d8ec;
+}
+.rootcolor3_softPurple .triggercolor3_softPurple:active {
+  background: #eddbf9;
+}
+.contentContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
+}
+.root:focus-within .contentContainer {
+  outline: none;
+}
+.rootisOpen:focus-within .contentContainerisOpen {
+  outline: none;
+}
+.slotTargetSelectedContent {
+  white-space: pre;
+}
+.slotTargetSelectedContent > :global(.__wab_text),
+.slotTargetSelectedContent > :global(.__wab_expr_html_text),
+.slotTargetSelectedContent > :global(.__wab_slot-string-wrapper),
+.slotTargetSelectedContent > :global(.__wab_slot) > :global(.__wab_text),
+.slotTargetSelectedContent
+  > :global(.__wab_slot)
+  > :global(.__wab_expr_html_text),
+.slotTargetSelectedContent
+  > :global(.__wab_slot)
+  > :global(.__wab_slot-string-wrapper),
+.slotTargetSelectedContent
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_text),
+.slotTargetSelectedContent
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_expr_html_text),
+.slotTargetSelectedContent
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot-string-wrapper),
+.slotTargetSelectedContent
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_text),
+.slotTargetSelectedContent
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_expr_html_text),
+.slotTargetSelectedContent
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot-string-wrapper) {
+  text-overflow: ellipsis;
+}
+.slotTargetSelectedContent > *,
+.slotTargetSelectedContent > :global(.__wab_slot) > *,
+.slotTargetSelectedContent > :global(.__wab_slot) > :global(.__wab_slot) > *,
+.slotTargetSelectedContent
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > *,
+.slotTargetSelectedContent > picture > img,
+.slotTargetSelectedContent > :global(.__wab_slot) > picture > img,
+.slotTargetSelectedContent
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > picture
+  > img,
+.slotTargetSelectedContent
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  overflow: hidden;
+}
+.slotTargetSelectedContentcolor3_softBlue {
+  color: #006adc;
+}
+.slotTargetSelectedContentcolor3_softCyan {
+  color: #0c7792;
+}
+.slotTargetSelectedContentcolor3_softGreen {
+  color: #18794e;
+}
+.slotTargetSelectedContentcolor3_softYellow {
+  color: #946800;
+}
+.slotTargetSelectedContentcolor3_softOrange {
+  color: #bd4b00;
+}
+.slotTargetSelectedContentcolor3_softRed {
+  color: #cd2b31;
+}
+.slotTargetSelectedContentcolor3_softPink {
+  color: #cd1d8d;
+}
+.slotTargetSelectedContentcolor3_softPurple {
+  color: #793aaf;
+}
+.root:focus-within .slotTargetSelectedContent > *,
+.root:focus-within .slotTargetSelectedContent > :global(.__wab_slot) > *,
+.root:focus-within
+  .slotTargetSelectedContent
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > *,
+.root:focus-within
+  .slotTargetSelectedContent
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > *,
+.root:focus-within .slotTargetSelectedContent > picture > img,
+.root:focus-within
+  .slotTargetSelectedContent
+  > :global(.__wab_slot)
+  > picture
+  > img,
+.root:focus-within
+  .slotTargetSelectedContent
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > picture
+  > img,
+.root:focus-within
+  .slotTargetSelectedContent
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  outline: none;
+}
+.slotTargetPlaceholder {
+  white-space: pre;
+  color: var(--token-41VRhDKfihhY);
+}
+.slotTargetPlaceholder > :global(.__wab_text),
+.slotTargetPlaceholder > :global(.__wab_expr_html_text),
+.slotTargetPlaceholder > :global(.__wab_slot-string-wrapper),
+.slotTargetPlaceholder > :global(.__wab_slot) > :global(.__wab_text),
+.slotTargetPlaceholder > :global(.__wab_slot) > :global(.__wab_expr_html_text),
+.slotTargetPlaceholder
+  > :global(.__wab_slot)
+  > :global(.__wab_slot-string-wrapper),
+.slotTargetPlaceholder
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_text),
+.slotTargetPlaceholder
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_expr_html_text),
+.slotTargetPlaceholder
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot-string-wrapper),
+.slotTargetPlaceholder
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_text),
+.slotTargetPlaceholder
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_expr_html_text),
+.slotTargetPlaceholder
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot-string-wrapper) {
+  text-overflow: ellipsis;
+}
+.slotTargetPlaceholder > *,
+.slotTargetPlaceholder > :global(.__wab_slot) > *,
+.slotTargetPlaceholder > :global(.__wab_slot) > :global(.__wab_slot) > *,
+.slotTargetPlaceholder
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > *,
+.slotTargetPlaceholder > picture > img,
+.slotTargetPlaceholder > :global(.__wab_slot) > picture > img,
+.slotTargetPlaceholder
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > picture
+  > img,
+.slotTargetPlaceholder
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  overflow: hidden;
+}
+.slotTargetPlaceholdercolor3_softBlue_showPlaceholder {
+  color: #006adc;
+}
+.slotTargetPlaceholdercolor3_softCyan_showPlaceholder {
+  color: #0c7792;
+}
+.slotTargetPlaceholdercolor3_softGreen_showPlaceholder {
+  color: #18794e;
+}
+.slotTargetPlaceholdercolor3_softYellow_showPlaceholder {
+  color: #946800;
+}
+.slotTargetPlaceholdercolor3_softOrange_showPlaceholder {
+  color: #bd4b00;
+}
+.slotTargetPlaceholdercolor3_softRed_showPlaceholder {
+  color: #cd2b31;
+}
+.slotTargetPlaceholdercolor3_softPink_showPlaceholder {
+  color: #cd1d8d;
+}
+.slotTargetPlaceholdercolor3_softPurple_showPlaceholder {
+  color: #793aaf;
+}
+.dropdownIcon {
+  position: relative;
+  object-fit: cover;
+  width: 20px;
+  height: 20px;
+  color: var(--token-jgohepLVeKvh);
+  flex-shrink: 0;
+}
+.dropdownIconcolor3_softBlue {
+  color: #0091ff;
+}
+.dropdownIconcolor3_softCyan {
+  color: #05a2c2;
+}
+.dropdownIconcolor3_softGreen {
+  color: #30a46c;
+}
+.dropdownIconcolor3_softYellow {
+  color: #f5d90a;
+}
+.dropdownIconcolor3_softOrange {
+  color: #f76808;
+}
+.dropdownIconcolor3_softRed {
+  color: #e5484d;
+}
+.dropdownIconcolor3_softPink {
+  color: #d6409f;
+}
+.dropdownIconcolor3_softPurple {
+  color: #8e4ec6;
+}
+.root:focus-within .dropdownIcon {
+  outline: none;
+}
+.root .dropdownIcon___focusVisibleWithin {
+  outline: none;
+}
+.overlay:global(.__wab_instance) {
+  position: absolute;
+  left: 0px;
+  top: 100%;
+  z-index: 1000;
+  display: none;
+}
+.overlayisOpen:global(.__wab_instance) {
+  display: flex;
+}
+.rootisOpen:focus-within .overlayisOpen:global(.__wab_instance) {
+  outline: none;
+}
+.root:active .overlay:global(.__wab_instance) {
+  display: none;
+}
+.optionsContainer {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  background: #ad3737d9;
+  min-width: 0;
+}
+.optionsContainercolor3_clear {
+  background: #eaa5a5;
+}
+.root:focus-within .optionsContainer {
+  outline: none;
+}
+.rootisOpen:focus-within .optionsContainerisOpen {
+  outline: none;
+}
+.rootisOpen_showPlaceholder:focus-within
+  .optionsContainerisOpen_showPlaceholder {
+  outline: none;
+}
+.root .optionsContainer___focusVisibleWithin {
+  outline: none;
+}
+.rootisOpen .optionsContainerisOpen____focusVisibleWithin {
+  outline: none;
+}
+.rootisOpen_showPlaceholder
+  .optionsContainerisOpen_showPlaceholder____focusVisibleWithin {
+  outline: none;
+}
